@@ -1,0 +1,5 @@
+name: Utilizando Curl no Actions
+on: push
+jobs:
+  curl:
+    runs-on: ubuntu-latest
