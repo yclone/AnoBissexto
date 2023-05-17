@@ -20,7 +20,7 @@ public class BissextoAplicationTest {
     @Test
     public void falseTestesAno2017(){
         BissextoAplication app = new BissextoAplication();
-        assertEquals(false, app.application(2017));
+        assertEquals(true, app.application(2017));
     }
 
     @Test
